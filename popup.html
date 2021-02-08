@@ -2,11 +2,18 @@
 <html>
 
 <head>
-    <script src="jquery-1.8.0.min.js"></script>
-    <script src="injectImage.js"></script>
+
 </head>
 
-<body>
+<body style="background-color: rgb(235,163,64) ">
+    <h1 style="font-size: medium; align-self: center;"> Set up recipient </h1>
+    
+    <form action = "/cats" id="emailSubmission">
+        <p><label for= "email">Please enter the default recipient's email address</label></p>
+        <input type="text" name="email" placeholder="aaa@gmail.com" style="background-color: rgb(239,228,176);">
+        <p><button id= submit style="background-color: rgb(215,215,215);"> submit </button></p>
+    </form>
+    <script src="popup.js"></script> 
 </body>
 
 </html>

@@ -1,10 +1,10 @@
 {
-    "name": "my extentions",
-    "description": "my xx",
-    "version": "0.1.0",
+    "name": "Share My Leetcode",
+    "description": "Share your awesome leetcode with friends within one click!",
+    "version": "0.1.1",
     "manifest_version": 2,
     "icons": {
-        "16": "./images.png"
+        "16": "./LeetCode_logo.png"
     },
     "background": {
         "scripts": [
@@ -17,6 +17,7 @@
     },
     "permissions": [
         "tabs",
-        "https://leetcode.com/problems/"
+        "https://leetcode.com/problems/",
+        "storage"
     ]
 }
