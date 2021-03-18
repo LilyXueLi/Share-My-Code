@@ -15,19 +15,6 @@ function createButton() {
     return first;
 }
 
-console.log ("before append")
-
-// window.onload = () => {
-//     document.addEventListener("pjax:end", function() {
-//         document.querySelector('.container__2zYY').appendChild(createButton()); 
-//     });
-// }
-
-
-
-// # means id
-// . means class
-
 setTimeout(function() {
     if (!document.querySelector('#sendCodeButton')) {
         document.querySelector('.container__2zYY').appendChild(createButton()); 
@@ -35,17 +22,11 @@ setTimeout(function() {
 },2000)
 
 
-console.log ("before destination")
-
-// let data1
-
 chrome.storage.sync.get("destination", function (data) {
     console.log(data.destination)
     data1 = data.destination;
     return data1
 })
-
-// console.log(`test ${data1}`)
 
 function popupWindow(questionTitle, code, w, h) {
     console.log(location)

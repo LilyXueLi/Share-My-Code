@@ -4,7 +4,7 @@
     "version": "0.1.1",
     "manifest_version": 2,
     "icons": {
-        "16": "./logo_6.png"
+        "16": "./Logos/logo_large.png"
     },
     "background": {
         "scripts": [
