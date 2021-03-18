@@ -1,3 +1,2 @@
 # Send-code
-haha2
-Chrome extension to send code within one click
+This is a chrome extension that enables Leetcode.com users to share their code via email within one click.
